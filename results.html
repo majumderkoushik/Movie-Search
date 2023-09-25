@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="./assets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav id="nav" class="navbar">
+    <div>
+      <h1 id="team" style="padding: 10px;font-size: 40px;">Team <span id="three">Three</span> Movies</h1>
+    </div>
+    
+    <div class="navbar-end">
+      <a
+        id="home" style="padding: 10px;text-decoration: none;font-size: 20px;"
+        href="./index.html">
+        Home
+      </a>
+    </div>
+  </nav>
+  <div id="logo-container">
+    <img id="logo" src = "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg"/>
+  </div>
+
+  <div class="columns">
+    <div class="column">
+      <div>
+        <img id="poster" />
+      </div>
+    </div>
+    <div class="cast-details">
+      <h1 id="title" style="font-size: 30px;font-weight: bold; margin-left:80px;"></h1>
+      <h2 style="font-size: 20px;font-weight: bold;margin-left: 20px;">Starring:</h2>
+      <div id="cast-section">
+      </div>
+      <br />
+      <h2 style="font-weight: bold; font-size: 20px;">Storyline:</h2>
+      <p id="storyline"></p>
+      </p>
+    </div>
+  </div>
+  <h2 id="more-movies" style="font-weight: bold;margin-left: 20px;">More movies like this:</h2>
+  <div class="recommendations">
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/results.js"></script>
+</body>
+
+</html>
